@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;600;700;800;900&family=Poppins:ital,wght@0,100;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Blinker', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.manuber
+{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgba(219, 212, 212, 0.966);
+    align-items: center;
+    box-shadow: 2px 2px 10px black;
+    z-index: 4;
+}
+.manuber ul
+{
+    display: flex;
+    margin-right: 140px;
+    position: absolute;
+    right: 0;
+}
+.manuber ul li
+{
+    list-style: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+}
+.manuber ul li a
+{
+    text-decoration: none;
+    color: black;
+    transition: all .5s ease;
+}
+.manuber ul li a:hover
+{
+    color: red;
+}
+.manuber i
+{
+    margin-right: 80px;
+    padding: 14px 16px;
+    background: #fff;
+   border-radius: 5px;
+   transition: all .5s ease;
+}
+.manuber i:hover
+{
+    background: red;
+    color: #fff;
+}
+.manuber .logo
+{
+    margin-left: 80px;
+}
+.manuber .logo h1
+{
+    font-size: 33px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.manuber .logo span
+{
+   font-weight: 600;
+   color: red;
+}
+/* -------------- banner section start ---------------*/
+.banner
+{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.banner img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.overly
+{
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    opacity: .4;
+}
+.banner-content
+{
+    position: absolute;
+    top: 0;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+.banner-content p
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: .8;
+}
+.banner-content h1
+{
+  font-size: 70px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.banner-content a
+{
+    padding: 15px 40px;
+    margin-top: 40px;
+    position: absolute;
+    font-size: 20px;
+    border-radius: 10px;
+    background: red;
+    color: #fff;
+    transition: all .5s ease;
+    letter-spacing: 1px;
+}
+.banner-content a:hover 
+{
+    background: brown;
+    color: #fff;
+}
+.banner-content i
+{
+    position: absolute;
+    margin-left: 6px;
+    margin-top: 5px; 
+}
+/* -------------- images section start -----------*/
+.image-section
+{
+    display: grid;
+    grid-gap: px;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 100px;
+    padding: 0 80px;
+    position: relative;
+}
+.images
+{
+    height: 210px;
+    width: 180px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.images img
+{
+    height: 210px;
+    width: 100%;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+.images img:hover
+{
+    transform: scale(1.1); 
+}
+.iamge a
+{
+    position: absolute;
+    top: 0;
+    margin-top: 240px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    height: 100px;
+}
+.iamge a:hover
+{
+    color: red;
+}
+/* -------------- another images section start -----------*/
+.images-section2
+{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px,2fr));
+    position: relative;
+    margin-top: 130px;
+    grid-gap: 20px;
+    padding: 0 80px;
+    background: #F7F7F9;
+    height: 500PX;
+    align-items: center;
+    justify-content: center;
+}
+.images2
+{
+    height: 300px;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    background: black;
+    margin-top: 70px; 
+}
+.images2 img
+{
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+    transition: all .5s ease;
+    
+}
+.images2 img:hover
+{
+    transform: scale(1.1);
+}
+.iamg
+{
+    position: relative;
+    margin-top: -600px;
+    margin-left: 20px;
+    top: 0;
+    display: inline-block;
+}
+.iamg h1
+{
+    letter-spacing: 1px;
+    color: #fff;
+}
+.iamg a
+{
+    padding: 15px 25px;
+    border: 1px solid white;
+    color: #fff;
+    margin-top: 30px;
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+.iamg a:hover
+{
+    background: red;
+    border: none;
+}
+/* ------------ another images2 srction start ------------- */
+.iamges-section3
+{
+    height: 1100px;
+    width: 100%;
+    position: relative;
+    padding: 0 80px;
+}
+.iamges-section4
+{
+    height: 400px;
+    width: 50%;
+    background: black;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.iamges-section4 img
+{
+    height: 400px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    opacity: .5;
+}
+.letter
+{
+    position: absolute;
+    width: 450px;
+    right: 0;
+    margin-right: 140px;
+    top: 0;
+  
+}
+.letter p
+{
+    color: #78859D;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 12px 0;
+}
+.letter h2
+{
+    font-size: 45px;
+    line-height: 50px;
+}
+.letter a
+{
+    padding: 15px 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    position: absolute;
+    font-weight: 500;
+    transition: all .5s ease;
+}
+.letter a:hover
+{
+    background-color: rgb(187, 26, 26);
+}
+.iamges-section5
+{
+    margin-top: 550px;
+    width: 43%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 400px;
+    border-radius: 10px;
+    background: red;
+    margin-right: 80px;
+}
+.iamges-section5 img
+{
+    height: 100%;
+    border-radius: 5px;
+    width: 100%;
+}
+#name
+{
+    position: absolute;
+    left: 0;
+    margin-top: 550px;
+    margin-left: 120px;
+}
+
+/* ------------- another images3 srction start------- */
+.iamges-section6
+{
+    height: 780px;
+    width: 100%;
+    background: #F8F8FB;
+    position: relative;
+}
+.section
+{
+    text-align: center;
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 120px;
+}
+.section h1
+{
+    font-size: 40px;
+    line-height: 50px;
+}  
+.images-section7
+{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(3, 2fr);
+    padding: 0 80px;
+    grid-gap: 25px;
+    padding-top: 300px;
+}
+.images-section7 .service-item
+{
+    margin-bottom: 30px;
+    height: 400px;
+}
+.images-section7 .service-item .service-item-inner
+{
+    background-color: white;
+    
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    height: 350px;
+}
+ .images-section7 .service-item .service-item-inner .icon
+ {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    background: #F7F7F9;
+ }
+ .images-section7 .service-item .service-item-inner .icon .fa-solid
+{
+    font-size: 50px;
+    line-height: 90px;
+   color: red; 
+   transition: all 0.3s ease;
+}
+.images-section7 .service-item .service-item-inner:hover .icon
+{
+    background: red;
+
+}
+.images-section7 .service-item .service-item-inner:hover .icon .fa-solid
+{
+    
+    color: white;
+}
+.images-section7 .service-item .service-item-inner:hover
+{
+   box-shadow: 1px 1px 20px rgb(83, 78, 78); 
+
+}
+.service-item-inner a
+{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+.service-item-inner a:hover
+{
+    color: red;
+}
+.service-item-inner p
+{
+    font-size: 20px;
+    padding: 20px 0;
+}
+/* --------------------- Latest Properties section start ---------------------- */
+.wiper
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.wiper h1
+{
+    font-size: 45px;
+    padding: 15px 0;
+
+}
+.wiper p
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.wrapper
+{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 330px;
+   padding: 0 80px;
+   margin-top: 80px; 
+}
+.card
+{
+    width: 380px;
+    height: 300px;
+    padding: 0 2em;
+    position: relative;
+    display: flex;
+    transition: .5s ease-in-out;
+    overflow: hidden;
+}
+.card:hover
+{
+    transform: scale(1.1);
+}
+.card::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to top, rgb(15, 1, 1),rgb(77, 77, 80));
+    z-index: 2;
+    transition: 0.5s ease;
+    opacity: 0;
+
+}
+.card:hover:before
+{
+    opacity: .4;
+}
+.card img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .8;
+}
+.card .info
+{
+    position: relative;
+    z-index: 3;
+    transform: translateY(30px);
+    transition: .5s all;
+    margin-top: 125px;
+}
+.card:hover  .info
+{
+    transform: translateY(0);
+}
+.card1 
+{
+    height: 370px;
+    width: 380px;
+    overflow: hidden;
+    background: #F7F7F9;
+}
+.card3
+{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+.info h1
+{
+  color: #fff;
+  padding: 10px 0;
+}
+.info p
+{
+    color: #fff;
+    font-size: 20px;
+}
+.info button
+{
+   padding: 6px 15px;
+   border-radius: 10px;
+   border: none;
+}
+#rokib
+{
+    position: absolute;
+    right: 0;
+    margin-right: 80px;
+}
+#rokib1
+{
+    position: absolute;
+    left: 0;
+    margin-left: 80px;
+}
+#rokib2
+{
+    position: absolute;
+    margin-left: 406px;
+}
+.card4
+{
+    display: flex;
+    padding: 30px 0;
+    margin-left: 20px;
+}
+.card4 i
+{
+    padding: 0 15px;
+    color: red; 
+}
+.card4 p
+{
+    font-size: 15px;
+}
+/* -------------------- agent section start -------------*/
+.agent{
+    height: 860px;
+    margin-top: 150px;
+    position: relative;
+}
+.agent-images
+{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.agent-images img
+{
+    height: 100%;
+    width: 100%;
+    opacity: .3;
+    object-fit: cover;
+}
+.agent-photo
+{
+    height: 350px;
+    width: 65%;
+    margin-left: 230px;
+    top: 0;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 400px;
+    border-radius: 15px;
+    box-shadow: 0 2px 15px rgb(116, 70, 70);
+}
+.agent-photo img
+{
+    height: 100%;
+    width: 40%;
+    border-radius: 15px 0 0 15px;
+}
+.agent-say
+{
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    width: 450px;
+    margin-right: 260px;
+}
+.agent-say h4
+{
+    padding: 10px 0;
+    font-size: 18px;
+    color: #78859D;
+}
+.agent-say h3
+{
+    font-size: 25px;
+}
+
+/* -------------------- news-feed --------------------------------*/
+.our-artical
+{
+    text-align: center;
+}
+.news-feed
+{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding: 0 80px;
+    max-height: 1000px;
+    margin-top: 80px;
+}
+.news-feed-content
+{
+    height: 580px;
+    background-color: #F7F7F9;
+    border-radius: 10px 10px 0 0;
+    
+}
+.feed-images
+{
+    height: 300px;
+    width: 100%;
+}
+.feed-img 
+{
+    height: 300px;
+    width: 100%;
+   overflow: hidden;
+   border-radius: 10px 10px 0 0;
+}
+.feed-img img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all .5s ease;
+}
+.feed-img img:hover
+{
+    transform: scale(1.1);
+}
+
+.news-feed-call a
+{
+    position: absolute;
+    font-size: 25px;
+    color: black;
+    margin-top: 30px;
+    font-weight: 700;
+    width: 400px;
+    margin-left: 20px;
+    transition: all .5s ease;
+}
+.news-feed-call a:hover
+{
+    color: red;
+}
+.news-feed-call p
+{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    margin-top: 110px;
+    font-weight: 500;
+    width: 390px;
+    margin-left: 20px;
+}
+.line
+{
+    height: 1px;
+    width: 100%;
+    background: #78859D;
+    margin-top: 200px;
+}
+.ling-img
+{
+   
+    
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.ling-img img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+}
+.ling-img a
+{
+    padding: 0 10px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    transition: all .5s ease;
+}
+.ling-img a:hover
+{
+    color: red;
+}
+.ling-img p
+{
+     margin-left: 50px;
+    color: #78859D;
+    margin-top: 18px;
+}
+/* -------------------- footer section start ------------------------ */
+.footer
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: relative;
+    grid-gap: 40px;
+    background: black;
+    padding: 0 80px;
+    margin-top: 100px;
+}
+.footer-section
+{
+    height: 400px;
+}
+.footer1
+{
+    margin-top: 50px;
+}
+.footer1 h2
+{
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer1 p
+{
+    color: rgb(235, 228, 228);
+    line-height: 28px;
+
+}
+.footer1 i
+{
+    padding: 15px 15px;
+    background: red;
+    color: #fff;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.Company 
+{
+    margin-top: 50px;
+}
+.Company h2
+{
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.Company a
+{
+    font-size: 18px;
+    font-weight: 500;
+   line-height: 30px;
+   color: rgb(235, 228, 228);
+   transition: all .5s ease;
+}
+.Company a:hover
+{
+    color: red;
+}
+.update
+{
+    color: #fff;
+}
+.update
+{
+    margin-top: 50px;
+}
+.update h2
+{
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.update p
+{
+    line-height: 26px;
+}
+.button button{
+    
+  height: 60px;
+  width: 100%;
+    margin-top: 10px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+}
+.button input{
+    
+     height: 60px;
+     width: 100%;
+     margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+  }
+
+
+
+ 
